@@ -1,0 +1,39 @@
+.featured{
+display: flex;
+justify-content: space-between;
+
+}
+
+.featuredItem{
+    flex: 1;
+    margin: 10px 20px;
+    padding: 20px;
+    background-color: cornflowerblue;
+    border-radius: 8px;
+  
+}
+
+.featuredMoneyContainer{
+    font-size: 30px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredMoney{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.featuredMoneyRate{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredIcon{
+padding: 5px;
+font-size: 15px;
+color: red;
+}

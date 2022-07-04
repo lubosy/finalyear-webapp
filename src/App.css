@@ -1,36 +1,6 @@
 
-.App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container{
+    display: flex;
+    margin-top: 10px;
 }
-
-.logo {
-  margin-left: 3rem;
-}
-
-.main-nav{
-  display: flex;
-  flex-direction: row;
-  gap: 5rem;
-}
-
-.main-nav a{
-  text-decoration: none;
-}
-
-.menu-bar{
-  margin-right: 3rem;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-
 

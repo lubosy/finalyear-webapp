@@ -1,21 +1,18 @@
-import './App.css';
+
+import Topbar from './components/Topbar';
+import Sidebar from './components/sidebar/Sidebar';
+import './app.css'
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <div className="logo">
-        Logo
-       </div>
-       <div className="main-nav">
-        <a href='£'>About</a>
-        <a href='£'>Home</a>
-        <a href='£'>Services</a>
-        <a href='£'>Contact</a>
-       </div>
-       <div className="menu-bar">
-        Menu
-       </div>
+      <Topbar/>
+      <div className='container'>
+      <Sidebar/>
+      <Home/>
+      </div>
       </header>
     </div>
   );
