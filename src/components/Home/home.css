@@ -2,3 +2,8 @@
     flex: 4;
     background-color: rgb(236, 231, 231);
 }
+
+.homeWidgets{
+    display: block;
+    
+}

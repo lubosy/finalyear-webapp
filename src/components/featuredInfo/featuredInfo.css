@@ -1,22 +1,35 @@
 .featured{
 display: flex;
-justify-content: space-between;
-
 }
-
+.dataColumns{
+    display: grid;
+    grid-template-columns:repeat(3,1fr)
+}
 .featuredItem{
-    flex: 1;
-    margin: 10px 20px;
-    padding: 20px;
-    background-color: cornflowerblue;
+   
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: white;
     border-radius: 8px;
   
+}
+
+.featuredTempHumid{
+    display: flex;
+    flex-direction: column;
+}
+
+.weatherContentAlign{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 
 .featuredMoneyContainer{
     font-size: 30px;
     margin: 10px 0px;
     display: flex;
+    padding: 5px;
     align-items: center;
 }
 
@@ -34,6 +47,22 @@ justify-content: space-between;
 
 .featuredIcon{
 padding: 5px;
-font-size: 15px;
+font-size: 50px;
 color: red;
+}
+
+.SunLogo{
+    height: 80px;
+
+}
+
+.featuredTitle{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.windAndRain{
+    display: flex;
+   align-items: center;
 }

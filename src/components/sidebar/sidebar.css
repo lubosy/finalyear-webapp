@@ -37,5 +37,11 @@ padding: 10px;
 .sidebarItem.active, .sidebarItem:hover{
     background-color: #4e8ece;
     color: white;
+    padding: 10px 10px;
+    margin: 5px 0px;
     width: 100%;
+}
+.link{
+    text-decoration: none;
+    color: #66B2FF;
 }
